@@ -12,6 +12,7 @@ using Police_Station_WEB.Data;
 using Police_Station_WEB.Models;
 using Police_Station_WEB.Services;
 using PoliceStationWebData;
+using PoliceStationWebServices;
 
 namespace Police_Station_WEB
 {
@@ -24,11 +25,24 @@ namespace Police_Station_WEB
 
         public IConfiguration Configuration { get; }
 
+
+
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            
+            string dbConnectionString = Configuration.GetConnectionString("DefaultConnection");
+            string assemblyName = typeof(PoliceStationWebDataContext).Namespace;//*
+
+            services.AddDbContext<PoliceStationWebDataContext>(options =>
+                 options.UseSqlServer(dbConnectionString,
+                  optionsBuilder =>
+                optionsBuilder.MigrationsAssembly(assemblyName)
+             ));
+             
+
+            //services.AddDbContext<ApplicationDbContext>(options =>
+                //options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
@@ -39,16 +53,16 @@ namespace Police_Station_WEB
 
             services.AddMvc();
 
-            services.AddDbContext<PoliceStationWebDataContext>(options 
-                => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddSingleton(Configuration);
+            services.AddScoped<IPoliceStationWebPolicajac, PoliceStationWebDataPolicajacService>();
+
+
+
+            //services.AddDbContext<PoliceStationWebDataContext>(options 
+              //  => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             //-------------^^
-
-
-
-
-
-
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -5,6 +5,13 @@
     <UserSecretsId>aspnet-Police_Station_WEB-B3A727F2-8334-46B6-A240-A653F862AA77</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20180605090028_InitialMigration.cs" />
+    <Compile Remove="Data\Migrations\20180605090028_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20180605092954_InitialMigration.cs" />
+    <Compile Remove="Migrations\20180605092954_InitialMigration.Designer.cs" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
@@ -20,6 +27,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PoliceStationWebData\PoliceStationWebData.csproj" />
+    <ProjectReference Include="..\PoliceStationWebServices\PoliceStationWebServices.csproj" />
   </ItemGroup>
 
 </Project>

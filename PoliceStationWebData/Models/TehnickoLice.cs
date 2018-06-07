@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,8 @@ namespace PoliceStationWebData
 	{
 		
 		public virtual AlarmniSistem Serijski_br_alarma { get; set; }
-		public virtual string Ime { get; set; }
+        [Key]
+        public virtual string Ime { get; set; }
 
 
 		public override bool Equals(object Object)
