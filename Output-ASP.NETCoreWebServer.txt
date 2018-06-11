@@ -1,0 +1,188 @@
+﻿Police Station WEB> info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+Police Station WEB>       User profile is available. Using 'C:\Users\Booproweb-3\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Police Station WEB> Hosting environment: Development
+Police Station WEB> Content root path: C:\Users\Booproweb-3\Desktop\Police Station WEB\Police Station WEB\Police Station WEB
+Police Station WEB> Now listening on: http://127.0.0.1:19571
+Police Station WEB> Application started. Press Ctrl+C to shut down.
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+Police Station WEB>       Request starting HTTP/1.1 GET http://localhost:44323/  
+Police Station WEB> info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[7]
+Police Station WEB>       Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+Police Station WEB> info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+Police Station WEB>       Executing action method Police_Station_WEB.Controllers.HomeController.Index (Police Station WEB) with arguments ((null)) - ModelState is Valid
+Police Station WEB> info: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor[1]
+Police Station WEB>       Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+Police Station WEB> info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+Police Station WEB>       Executed action Police_Station_WEB.Controllers.HomeController.Index (Police Station WEB) in 6368.0098ms
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+Police Station WEB>       Request finished in 6690.3017ms 200 text/html; charset=utf-8
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+Police Station WEB>       Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/css/bootstrap.css  
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+Police Station WEB>       Request starting HTTP/1.1 GET http://localhost:44323/css/site.css  
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+Police Station WEB>       Request starting HTTP/1.1 GET http://localhost:44323/images/banner1.svg  
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+Police Station WEB>       Request starting HTTP/1.1 GET http://localhost:44323/images/banner2.svg  
+Police Station WEB> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+Police Station WEB>       Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Booproweb-3\Desktop\Police Station WEB\Police Station WEB\Police Station WEB\wwwroot\css\site.css'
+Police Station WEB> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+Police Station WEB>       Sending file. Request path: '/images/banner1.svg'. Physical path: 'C:\Users\Booproweb-3\Desktop\Police Station WEB\Police Station WEB\Police Station WEB\wwwroot\images\banner1.svg'
+Police Station WEB> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+Police Station WEB>       Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'C:\Users\Booproweb-3\Desktop\Police Station WEB\Police Station WEB\Police Station WEB\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+Police Station WEB> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+Police Station WEB>       Sending file. Request path: '/images/banner2.svg'. Physical path: 'C:\Users\Booproweb-3\Desktop\Police Station WEB\Police Station WEB\Police Station WEB\wwwroot\images\banner2.svg'
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+Police Station WEB>       Request starting HTTP/1.1 GET http://localhost:44323/images/banner4.svg  
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+Police Station WEB>       Request starting HTTP/1.1 GET http://localhost:44323/js/site.js?v=ji3-IxbEzYWjzzLCGkF1KDjrT2jLbbrSYXw-AhMPNIA  
+Police Station WEB> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+Police Station WEB>       Sending file. Request path: '/images/banner4.svg'. Physical path: 'C:\Users\Booproweb-3\Desktop\Police Station WEB\Police Station WEB\Police Station WEB\wwwroot\images\banner4.svg'
+Police Station WEB> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+Police Station WEB>       Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Booproweb-3\Desktop\Police Station WEB\Police Station WEB\Police Station WEB\wwwroot\js\site.js'
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+Police Station WEB>       Request starting HTTP/1.1 GET http://localhost:44323/images/banner3.svg  
+Police Station WEB> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+Police Station WEB>       Sending file. Request path: '/images/banner3.svg'. Physical path: 'C:\Users\Booproweb-3\Desktop\Police Station WEB\Police Station WEB\Police Station WEB\wwwroot\images\banner3.svg'
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+Police Station WEB>       Request finished in 162.9161ms 200 text/css
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+Police Station WEB>       Request finished in 2.0592ms 200 application/javascript
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+Police Station WEB>       Request finished in 55.1068ms 200 image/svg+xml
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+Police Station WEB>       Request finished in 257.8657ms 200 text/css
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+Police Station WEB>       Request finished in 250.0931ms 200 image/svg+xml
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+Police Station WEB>       Request finished in 277.337ms 200 image/svg+xml
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+Police Station WEB>       Request finished in 115.8209ms 200 image/svg+xml
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+Police Station WEB>       Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+Police Station WEB> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+Police Station WEB>       Sending file. Request path: '/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2'. Physical path: 'C:\Users\Booproweb-3\Desktop\Police Station WEB\Police Station WEB\Police Station WEB\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2'
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+Police Station WEB>       Request finished in 41.8308ms 200 font/woff2
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+Police Station WEB>       Request starting HTTP/1.1 GET http://localhost:44323/lib/jquery/dist/jquery.js  
+Police Station WEB> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+Police Station WEB>       The file /lib/jquery/dist/jquery.js was not modified
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+Police Station WEB>       Request finished in 83.852ms 304 application/javascript
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+Police Station WEB>       Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/js/bootstrap.js  
+Police Station WEB> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+Police Station WEB>       The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+Police Station WEB>       Request finished in 0.4866ms 304 application/javascript
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+Police Station WEB>       Request starting HTTP/1.1 GET http://localhost:44323/favicon.ico  
+Police Station WEB> info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+Police Station WEB>       Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Booproweb-3\Desktop\Police Station WEB\Police Station WEB\Police Station WEB\wwwroot\favicon.ico'
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+Police Station WEB>       Request finished in 57.8371ms 200 image/x-icon
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+Police Station WEB>       Request starting HTTP/1.1 GET http://localhost:44323/Police  
+Police Station WEB> info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[7]
+Police Station WEB>       Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+Police Station WEB> info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+Police Station WEB>       Executing action method Police_Station_WEB.Controllers.PoliceController.Index (Police Station WEB) with arguments ((null)) - ModelState is Valid
+Police Station WEB> info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+Police Station WEB>       Entity Framework Core 2.1.0-rtm-30799 initialized 'PoliceStationWebDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=PoliceStationWebData 
+Police Station WEB> info: Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor[1]
+Police Station WEB>       Executing ViewResult, running view at path /Views/Police/Index.cshtml.
+Police Station WEB> info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+Police Station WEB>       Executed action Police_Station_WEB.Controllers.PoliceController.Index (Police Station WEB) in 3692.6162ms
+Police Station WEB> fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+Police Station WEB>       An unhandled exception has occurred while executing the request.
+Police Station WEB> System.NullReferenceException: Object reference not set to an instance of an object.
+Police Station WEB>    at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityTypeExtensions.DisplayName(IEntityType type)
+Police Station WEB>    at Microsoft.EntityFrameworkCore.Query.Internal.IncludeCompiler.WalkNavigations(IEntityType entityType, IReadOnlyList`1 navigationPropertyPaths, IncludeLoadTree includeLoadTree)
+Police Station WEB>    at Microsoft.EntityFrameworkCore.Query.Internal.IncludeCompiler.PopulateIncludeLoadTree(IncludeResultOperator includeResultOperator, IncludeLoadTree includeLoadTree)
+Police Station WEB>    at Microsoft.EntityFrameworkCore.Query.Internal.IncludeCompiler.CreateIncludeLoadTrees(QueryModel queryModel)
+Police Station WEB>    at Microsoft.EntityFrameworkCore.Query.Internal.IncludeCompiler.CompileIncludes(QueryModel queryModel, Boolean trackingQuery, Boolean asyncQuery)
+Police Station WEB>    at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.OptimizeQueryModel(QueryModel queryModel, Boolean asyncQuery)
+Police Station WEB>    at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.OptimizeQueryModel(QueryModel queryModel, Boolean asyncQuery)
+Police Station WEB>    at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateQueryExecutor[TResult](QueryModel queryModel)
+Police Station WEB> --- End of stack trace from previous location where exception was thrown ---
+Police Station WEB>    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+Police Station WEB>    at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](Expression query, IQueryModelGenerator queryModelGenerator, IDatabase database, IDiagnosticsLogger`1 logger, Type contextType)
+Police Station WEB>    at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass13_0`1.<Execute>b__0()
+Police Station WEB>    at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+Police Station WEB>    at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+Police Station WEB>    at Remotion.Linq.QueryableBase`1.GetEnumerator()
+Police Station WEB>    at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+Police Station WEB>    at AspNetCore._Views_Police_Index_cshtml.<ExecuteAsync>d__9.MoveNext() in C:\Users\Booproweb-3\Desktop\Police Station WEB\Police Station WEB\Police Station WEB\Views\Police\Index.cshtml:line 20
+Police Station WEB> --- End of stack trace from previous location where exception was thrown ---
+Police Station WEB>    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+Police Station WEB>    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+Police Station WEB>    at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageCoreAsync>d__16.MoveNext()
+Police Station WEB> --- End of stack trace from previous location where exception was thrown ---
+Police Station WEB>    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+Police Station WEB>    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+Police Station WEB>    at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageAsync>d__15.MoveNext()
+Police Station WEB> --- End of stack trace from previous location where exception was thrown ---
+Police Station WEB>    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+Police Station WEB>    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+Police Station WEB>    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+Police Station WEB>    at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderAsync>d__14.MoveNext()
+Police Station WEB> --- End of stack trace from previous location where exception was thrown ---
+Police Station WEB>    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+Police Station WEB>    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+Police Station WEB>    at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__22.MoveNext()
+Police Station WEB> --- End of stack trace from previous location where exception was thrown ---
+Police Station WEB>    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+Police Station WEB>    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+Police Station WEB>    at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__21.MoveNext()
+Police Station WEB> --- End of stack trace from previous location where exception was thrown ---
+Police Station WEB>    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+Police Station WEB>    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+Police Station WEB>    at Microsoft.AspNetCore.Mvc.ViewResult.<ExecuteResultAsync>d__26.MoveNext()
+Police Station WEB> --- End of stack trace from previous location where exception was thrown ---
+Police Station WEB>    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+Police Station WEB>    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+Police Station WEB>    at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__19.MoveNext()
+Police Station WEB> --- End of stack trace from previous location where exception was thrown ---
+Police Station WEB>    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+Police Station WEB>    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+Police Station WEB>    at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResultFilterAsync>d__24.MoveNext()
+Police Station WEB> --- End of stack trace from previous location where exception was thrown ---
+Police Station WEB>    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+Police Station WEB>    at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+Police Station WEB>    at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+Police Station WEB>    at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+Police Station WEB> --- End of stack trace from previous location where exception was thrown ---
+Police Station WEB>    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+Police Station WEB>    at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+Police Station WEB>    at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+Police Station WEB>    at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+Police Station WEB> --- End of stack trace from previous location where exception was thrown ---
+Police Station WEB>    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+Police Station WEB>    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+Police Station WEB>    at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+Police Station WEB> --- End of stack trace from previous location where exception was thrown ---
+Police Station WEB>    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+Police Station WEB>    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+Police Station WEB>    at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+Police Station WEB> --- End of stack trace from previous location where exception was thrown ---
+Police Station WEB>    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+Police Station WEB>    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+Police Station WEB>    at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+Police Station WEB> --- End of stack trace from previous location where exception was thrown ---
+Police Station WEB>    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+Police Station WEB>    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+Police Station WEB>    at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+Police Station WEB> --- End of stack trace from previous location where exception was thrown ---
+Police Station WEB>    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+Police Station WEB>    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+Police Station WEB>    at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+Police Station WEB> --- End of stack trace from previous location where exception was thrown ---
+Police Station WEB>    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+Police Station WEB>    at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+Police Station WEB> --- End of stack trace from previous location where exception was thrown ---
+Police Station WEB>    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+Police Station WEB>    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+Police Station WEB>    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+Police Station WEB> info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+Police Station WEB>       Request finished in 5402.7733ms 500 text/html; charset=utf-8
