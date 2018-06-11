@@ -27,14 +27,14 @@ namespace PoliceStationWebServices
         {
             return
                 _context.Policajac_
-                .Include(Policajac => Policajac.Licno_ime)
-                .Include(Policajac => Policajac.Prezime)
-                .Include(Policajac => Policajac.JMBG)
-                .Include(Policajac => Policajac.Pol)
-                .Include(Policajac => Policajac.Datum_rodj)
-                .Include(Policajac => Policajac.Oblast)
-                .Include(Policajac => Policajac.Adresa)
-                .Include(Policajac => Policajac.ID_Uprave);
+                .Include(a => a.Licno_ime)
+                .Include(a => a.Prezime)
+                .Include(a => a.JMBG);
+                //.Include(a => a.Pol)
+                //.Include(a => a.Datum_rodj)
+                //.Include(a => a.Oblast)
+                //.Include(a => a.Adresa)
+                //.Include(a => a.ID_Uprave);
         }
 
         public Policajac GetById(int ID)
@@ -43,8 +43,18 @@ namespace PoliceStationWebServices
                 GetAll()
                 .FirstOrDefault(Policajac => Policajac.ID == ID);
         }
+        
+        public string GetIme(int ID)
+        {
+            return _context.Policajac_.First(a => a.ID == ID).Licno_ime;
+        }
 
-        public string GetTip(int ID)
+        public string GetPrezime(int ID)
+        {
+            return _context.Policajac_.First(a => a.ID == ID).Prezime;
+        }
+        /*
+        public string GetTip(int ID) //Discriminator
         {
             var skolski = _context.Policajac_
                 .OfType<Skolski>().SingleOrDefault(a => a.ID == ID);
@@ -134,6 +144,6 @@ namespace PoliceStationWebServices
             var VanredneSituacije = (VanredneSituacije)GetById(ID);
             return VanredneSituacije.Kurs;
         }
-        
+        */
     }
 }

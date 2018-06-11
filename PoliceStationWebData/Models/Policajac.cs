@@ -11,16 +11,19 @@ namespace PoliceStationWebData
 	public class Policajac
 	{
         [Key]
-		public virtual int ID { get; set; }
+        [Required] public virtual int ID { get; set; }
 
-        public virtual string Tip { get; set; } //promenjeno iz int u string
+        [Required] public virtual string Tip { get; set; } //promenjeno iz int u string
 
 
 
-        public virtual string Licno_ime { get; set; }
+        [Required]
+        [Display(Name = "Licno Ime")] public virtual string Licno_ime { get; set; }
 		public virtual string Ime_roditelja { get; set; }
-		public virtual string  Prezime { get; set; }
-		public virtual int JMBG { get; set; }
+        [Required]
+        [Display(Name = "Prezime")] public virtual string  Prezime { get; set; }
+        [Required]
+        [Display(Name = "JMBG")] public virtual int JMBG { get; set; }
 		public virtual char Pol { get; set; }
 		public virtual string Adresa { get; set; }
 
